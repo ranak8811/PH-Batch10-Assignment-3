@@ -31,6 +31,9 @@
       rel="stylesheet"
     />
 
+    <!-- vanila css file  -->
+    <link rel="stylesheet" href="styles/style.css" />
+
     <!-- tailwind script file -->
     <script>
       tailwind.config = {
@@ -283,6 +286,71 @@
         </div>
       </section>
       <!-- work process section ends here -->
+
+      <!-- discuss section starts here -->
+      <section class="discuss-bg">
+        <!-- text part -->
+        <div class="flex justify-center items-center flex-col gap-4 p-12">
+          <button
+            class="btn bg-[rgba(171,239,95,0.2)] rounded-3xl flex items-center space-x-2"
+          >
+            <div
+              class="h-7 w-7 rounded-full text-sm text-center flex justify-center items-center"
+            >
+              <i class="fa-solid fa-arrow-right text-xl"></i>
+            </div>
+            Let’s Connect
+          </button>
+
+          <h3 class="text-3xl font-extrabold">Let’s Discuss Next Project</h3>
+
+          <p class="text-center">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication,<br />
+            featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+
+        <!-- input part -->
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 mt-6 p-8 md:p-16">
+          <input
+            class="rounded-3xl p-4"
+            type="text"
+            placeholder="First Name*"
+          />
+          <input class="rounded-3xl p-4" type="text" placeholder="Last Name*" />
+          <input
+            class="rounded-3xl p-4"
+            type="text"
+            placeholder="Phone Number*"
+          />
+          <input
+            class="rounded-3xl p-4"
+            type="text"
+            placeholder="Email Number*"
+          />
+
+          <textarea
+            class="rounded-3xl p-4 resize-none md:col-span-2"
+            rows="6"
+            name=""
+            id=""
+            placeholder="Write your message here"
+          ></textarea>
+
+          <button class="btn bg-[#ABEF5F] rounded-3xl md:col-span-2">
+            Send Mail
+            <div
+              class="bg-[#181817] h-7 w-7 rounded-full text-white text-sm text-center"
+            >
+              <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>
+            </div>
+          </button>
+        </div>
+      </section>
+      <!-- discuss section ends here -->
+      <!--  section starts here -->
+      <!--  section ends here -->
     </main>
     <!-- main ends here -->
 
